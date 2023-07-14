@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>CONTACT PAGE</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <p>IBRAHIM QAMAR.</p>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link page-scroll"
+                  aria-current="page"
+                  href="index"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="inspiration"
+                  >Personalities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="cities"
+                  >Fav Cities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="places"
+                  >Fav Places</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="contact"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2>CONTACT US</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Section: Contact v.2-->
+    <section class="container bg-light my-1 py-3 mb-4">
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Contact us
+      </h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">
+        Do you have any questions? Please do not hesitate to contact us
+        directly. Our team will come back to you within a matter of hours to
+        help you.
+      </p>
+
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="mail.php"
+            method="POST"
+          >
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                  />
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                  />
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    class="form-control md-textarea"
+                  ></textarea>
+                  <label for="message">Your message</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+
+          <div class="text-center text-md-left">
+            <a
+              class="btn btn-primary"
+              onclick="document.getElementById('contact-form').submit();"
+              >Send</a
+            >
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Germany, Franfrut</p>
+            </li>
+
+            <li>
+              <i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>+ 00 92 3344601 </p>
+            </li>
+
+            <li>
+              <i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>qamaribrahim112@iq.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+    </section>
+    <!--Section: Contact v.2-->
+
+    <footer class="footer py-5">
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-column footer-left-column">
+            <ul class="footer-social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <img src="pictures/facebook logo.avif" alt="" width="20px">
+                <a href="https://instagram.com/ibrahim_qamar?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                <img src="pictures/insta logo.avif" alt="" width="20px">
+            </ul>
+          </div>
+          <div class="footer-column footer-right-column">
+            <nav class="footer-nav">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Services</a>
+              <a href="#">Contact Us</a>
+            </nav>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
